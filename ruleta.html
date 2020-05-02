@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+   
+      
+</head>
+<body>
+
+  
+<section class="container">
+    
+    <div class="row">
+        <div class="col-xs-3 col-md-3 col-lg-3 sonido">
+            <audio autoplay loop controls>
+              <source src="img/pacman-song.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+    
+    
+    
+    <div class="row mx-auto d-block">
+        <div class="col-xs-12 col-md-12 col-lg-12 sorteo">
+            <div id="borde">
+            <h2 id="titulo1">SORTEO</h2>
+		     <div  id="numero"></div>
+            </div>
+		      <br>
+        </div>
+    </div>
+    
+   
+   
+    <div class="row">
+        <div class="col-xs-5 col-md-5 col-lg-5 boton1">
+    
+           <input class="boton boton1" type="button" value="START" onclick="numeroAleatorio()">
+            
+        </div>
+    
+        
+        <div class="col-xs-2 col-md-2 col-lg-2 listado ">
+            <div id="titulo2">NEXT VICTIM</div>
+        </div>
+        
+        
+        
+        <div class="col-xs-5 col-md-5 col-lg-5 boton2 ">
+    
+          <input class="boton boton2" type="button" value="RESET" onclick="reiniciar()">  
+            
+        </div>
+      
+    </div>
+    
+    <div class="row">
+        
+        <div class="col-xs-12 col-md-12 col-lg-12 pacman">
+            <div class="pacman-top"></div>
+            <div class="pacman-bottom"></div>
+            <div class="feed"></div>  
+            
+           
+        </div>
+    
+    
+    </div>
+    
+            
+</section>   
+    
+ <script type="text/javascript" src="js/wheel.js"></script>
+
+
+
+   
+</body>
+</html>
