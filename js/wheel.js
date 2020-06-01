@@ -12,9 +12,6 @@ function reiniciar() {
     location.reload();
     localStorage.clear();
 }
-
-
-
 function numeroAleatorio() {
     if (numeros.length == 24) {
        /* alert("Ya han sido seleccionadas todas las píldoras");*/
