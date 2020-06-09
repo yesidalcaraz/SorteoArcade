@@ -27,7 +27,6 @@ function numeroAleatorio() {
                 }
             }
         }
-
         //Equivalencia número con nombres
         numeros.push(nuevoNumero);
         localStorage.setItem(nuevoNumero, names[nuevoNumero])
@@ -36,8 +35,6 @@ function numeroAleatorio() {
         for (var g = 0; g < x.length; g++) {
             console.log(localStorage.getItem(x[g]))
         }
-
-
       document.getElementById("numero").innerHTML = names[nuevoNumero];
 
     }
